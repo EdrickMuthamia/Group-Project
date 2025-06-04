@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2711c;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: transparent;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.call-to-action {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  margin-bottom: 30px;
+}
+
+.hero-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #f2711c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* About Us Section */
+#about {
+  padding: 60px 0;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-content .text {
+  max-width: 500px;
+}
+
+.about-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Why Need a Customs Broker Section */
+#why-us {
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Contact Form Section */
+#contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #f2711c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f2711c;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.about-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Ensures the image fits without distortion */
+  border-radius: 10px;
+  margin-left: 500px; /* Adds space below the image */
+ margin-bottom: 200px; /* Adds space below the image */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
