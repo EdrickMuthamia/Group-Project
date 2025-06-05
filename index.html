@@ -1,83 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Border Buddy - Importing & Exporting Simplified</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Buddy - Customs Broker Services</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <img src="https://source.unsplash.com/random/150x50/?logo" alt="Border Buddy Logo" class="logo" />
-      <a href="#" class="call-to-action">Call for a FREE quote 1-866-926-0448</a> 
-    </div>
-  </header>
+    <header>
+        <h1>IMPORTING <br>AND EXPORTING <br>IS HARD</h1>
+        <p class="subheading">We do the hard part for you.<br>Grab a free online quote now.</p>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <h1>IMPORTING AND EXPORTING IS HARD</h1>
-    <p>We do the hard part for you. Grab a free online quote now.</p>
-    <form class="hero-form">
-      <label>I want to:</label>
-      <button type="button" class="cta-button">IMPORT A VEHICLE</button>
-      <button type="button" class="cta-button">IMPORT ANY ITEM</button>
-    </form>
-  </section>
-
-  <!-- About Us Section -->
-  <section id="about">
-    <div class="about-content">
-      <div class="text">
+        <div class="action-buttons">
+            
+          <button type ="button" class = "cta-btn">IMPORT A VEHICLE</button>
+          <button type ="button" class = "cta-btn">IMPORT ANY ITEM</button>
+        </div>
+    </header>
+   
+    <section class="info-section">
+      <div class="about-text">
         <h2>WHO ARE WE</h2>
-        <p>
-          Border Buddy is a customs broker providing online solutions for anyone fed up with being buried in duty and tariff paperwork. 
-          We simplify the cross-border retail experience with online solutions for both web-based businesses and shoppers.
-        </p>
+        <p>Border Buddy is a customs broker providing online solutions for anyone fed up with being buried in duty and tariff paperwork. We simplify the cross-border retail experience with online solutions for both web-based businesses and shoppers.</p>
+       </div>
+      <div class ="about-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdSVe4SslmwBgKeHMDwbycLnjiXGPVSpZ2--542ajITtvAGaZ244XmKCyAtrRkcztUqY&usqp=CAU" alt="car image ">
       </div>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdSVe4SslmwBgKeHMDwbycLnjiXGPVSpZ2--542ajITtvAGaZ244XmKCyAtrRkcztUqY&usqp=CAU" alt="Car Image" class="about-image" />
-    </div>
-  </section>
-
-  <!-- Why Need a Customs Broker Section -->
-  <section id="why-us">
-    <h2>WHY DO I NEED A CUSTOMS BROKER?</h2>
-    <p>
-      Customs brokers help complete the paperwork to move your goods from one country to another. 
-      The broker walks you through the paperwork required at customs and ensures it is all filed before you get to the border, making your trip faster and easier.
-    </p>
-  </section>
-
-  <!-- Contact Form Section -->
-  <section id="contact">
-    <h2>DUTY CALLS</h2>
-    <p>
-      When duty calls, talk to your buddy. We're ready with the answers you need to speed up and simplify the customs process.
-    </p>
-    <form class="contact-form">
-      <label for="name">Name *</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required />
-
-      <label for="email">Email *</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required />
-
-      <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
-
-      <label for="message">Ask our experts *</label>
-      <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
-
-      <button type="submit" class="submit-button">SUBMIT</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <img src="https://source.unsplash.com/random/50x50/?logo" alt="Border Buddy Logo" class="footer-logo" />
-    <p>© 2018 BorderBuddy. All rights reserved.</p>
-  </footer>
-
+    
+      </section>
+    
+    <section class="info-section">
+        <h2>WHY DO I NEED A CUSTOMS BROKER?</h2>
+        <p>Customs brokers help complete the paperwork to move your goods from one country to another. The broker walks you through the paperwork required at customs and ensures it is all filed before you get to the border making your trip faster and easier.</p>
+    </section>
+    
+    <section>
+        <h2 class="calls">DUTY CALLS</h2>
+        <p>When duty calls, talk to your buddy. We're ready with the answers you need to speed up and simplify the customs process.</p>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+                <label for="question">Ask our experts *</label>
+                <textarea id="question" name="question" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2018 BorderBuddy. All rights reserved.</p>
+    </footer>
 </body>
 </html>
